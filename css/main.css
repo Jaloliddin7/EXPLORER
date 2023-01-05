@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+*:focus{
+    outline: 1px dashed #000;
+    outline-offset: 1px;
+}
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+body{
+    height: 100%;
+    color: #D9D9D9;
+    background-color: #1A1A1A;
+    font-family: "Roboto",Arial, Helvetica, sans-serif, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    position: relative;
+    line-height: 18px;
+}
+.conteiner{
+    width: min(100%,1150px);
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    background-color: transparent;
+}
+input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+img{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+
+.global-line{
+    width: 60px;
+    height: 2px;
+    background-color: #34C759;
+    margin: 28px auto 60px;
+}
